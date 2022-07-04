@@ -1,0 +1,105 @@
+body,html{
+height: 100vh;
+width: 100vw;
+margin: 0;}
+
+
+.mainflex{
+height: 100vh;
+width: 100vw;
+border: 1px solid black;
+
+}
+
+.navbar{display: flex;
+    justify-content: space-between;
+    align-items: center;
+height: 20vh;
+width: 100vw;
+background-color: rgb(209, 202, 202);}
+
+.bluerett{
+    display: flex;
+height: 10vh;
+width: 20vh;
+background-color: blue;
+
+margin-left: 30px;
+
+}
+
+.dh{display: flex;
+height:10vh;
+width: 80px;
+background-color: white;
+text-align: center;
+
+border-radius: 10px;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 30vw;
+    background-color: gray;
+
+}
+
+.lowerflex{
+display: flex;
+flex-direction: row;}
+
+.centralflex{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.centralbox{
+display: flex;
+flex-direction: column;
+width: 500px;
+height: 400px;
+background-color: rosybrown;
+justify-content: space-between;
+align-items: center;
+}
+.bottonecerca{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.cerca{
+    display: flex;
+    justify-content: center;
+width: 400px;
+height: 50px;
+border-radius: 10px;
+}
+
+
+.centraldh{
+    display: flex;
+height: 50px;
+width: 100px;
+background-color: gray;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+border-radius: 10px;
+}
+
+.avatar{
+    display: flex;
+width: 50px;
+height: 50px;
+background-color: gray;
+border-radius: 50%;
+}
+
